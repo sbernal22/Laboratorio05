@@ -6,23 +6,46 @@
     <title>Mi pagina</title>
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <h1>Mi pagina</h1>
         <figure>
             <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="Logo de mi pagina" width="100" height="100">
             <figcaption>Logo de mi pagina</figcaption>
         </figure>
+        <hr>
         <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Articulos</a></li>
-                <li><a href="noticias.html">Ir a noticias</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+            <h2>Menu interactivo</h2>
+            <details>
+                <summary>Inicio</summary>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary>Articulos</summary>
+                <ul>
+                    <li><a href="#">Articulo 1</a></li>
+                    <li><a href="#">Articulo 2</a></li>
+                    <li><a href="#">Articulo 3</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary>Ir a noticias</summary>
+                <ul>
+                    <li><a href="noticias.html">Noticias</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary>Contacto</summary>
+                <ul>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </details>
         </nav>
     </header>
+    <hr>
     <main>
-        <article>
+        <article id="articulos">
             <h2>Introduccion a la Inteligencia artificial</h2>
             <p>La inteligencia artificial tiene un gran impacto en la sociedad</p>
             <figure>
@@ -46,6 +69,7 @@
                 <figcaption>Logo de CSS</figcaption>
             </figure>
         </article>
+        <hr>
         <aside>
             <h3>Enlaces relacionados</h3>
             <ul>
@@ -54,7 +78,8 @@
             </ul>
         </aside>
     </main>
-    <footer>
+    <hr>
+    <footer id="contacto">
         <address>Contacto: sbernal22@unsa.edu.pe</address>
     </footer>
 </body>
